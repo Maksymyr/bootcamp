@@ -258,16 +258,16 @@ main {
 }
 
 @font-face {
-    font-family: "Comfortaa";
-    src: url("../fonts/Comfortaa-Regular.ttf");
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Regular.ttf');
 }
 @font-face {
-    font-family: "Russo";
-    src: url("../fonts/RussoOne.ttf");
+    font-family: 'Russo';
+    src: url('../fonts/RussoOne.ttf');
 }
 @font-face {
-    font-family: "Sarina";
-    src: url("../fonts/Sarina-Regular.ttf");
+    font-family: 'Sarina';
+    src: url('../fonts/Sarina-Regular.ttf');
 }
 
 @keyframes skills-anim {
