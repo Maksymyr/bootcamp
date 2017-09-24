@@ -1,0 +1,154 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("../img/bg.png") no-repeat;
+    height: 900px;
+    width: 1000px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+}
+.rabbit {
+    background: url("../img/krosh1.png") no-repeat;
+    height: 108px;
+    width: 74px;
+    background-size: cover;
+    position: absolute;
+    left: 760px;
+    top: 510px;
+    animation: rabbit-move 8s infinite cubic-bezier(1,-0.02, 0.45, 0.82);
+    animation-delay: 4s;
+}
+.sheep {
+    background: url("../img/barash1.png");
+    height: 80px;
+    width: 65px;
+    background-size: cover;
+    position: absolute;
+    left: 150px;
+    top: 520px;
+    animation: sheep-move 8s infinite cubic-bezier(1, 0.04, 0, 1.07);
+
+}
+.ball {
+    background: url("../img/ball.png");
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    position: absolute;
+    left: 230px;
+    top: 530px;
+    animation: ball-move 4s infinite linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rabbit-move {
+    0% {}
+    45% {
+        background: url("../img/krosh1.png") no-repeat;
+        height: 108px;
+        width: 74px;
+        background-size: cover;
+        position: absolute;
+        left: 760px;
+        top: 510px;
+    }
+    50% {
+        background: url("../img/krosh-2.png");
+        background-size: cover;
+        height: 88px;
+        width: 111px;
+        position: absolute;
+        left: 750px;
+        top: 540px;
+    }
+    55% {
+        background: url("../img/krosh1.png") no-repeat;
+        height: 108px;
+        width: 74px;
+        background-size: cover;
+        position: absolute;
+        left: 760px;
+        top: 510px;
+    }
+    100% {
+        background: url("../img/krosh1.png") no-repeat;
+        height: 108px;
+        width: 74px;
+        background-size: cover;
+        position: absolute;
+        left: 760px;
+        top: 510px;
+    }
+}
+@keyframes sheep-move {
+    0% {}
+    45% {
+        background: url("../img/barash1.png");
+        height: 80px;
+        width: 65px;
+        background-size: cover;
+        position: absolute;
+        left: 150px;
+        top: 520px;
+    }
+    50% {
+        background: url("../img/barash-2.png");
+        background-size: cover;
+        height: 80px;
+        width: 83px;
+        position: absolute;
+        left: 150px;
+        top: 520px;
+    }
+    55% {
+        background: url("../img/barash1.png");
+        height: 80px;
+        width: 65px;
+        background-size: cover;
+        position: absolute;
+        left: 150px;
+        top: 520px;
+    }
+    100% {
+        background: url("../img/barash1.png");
+        height: 80px;
+        width: 65px;
+        background-size: cover;
+        position: absolute;
+        left: 150px;
+        top: 520px;
+    }
+}
+@keyframes ball-move {
+    0% {
+        transform: translateX(0px) translateY(0px) rotate(0deg);
+    }
+    20% {
+        transform: translateX(104px) translateY(-70px) rotate(240deg);
+    }
+    30% {
+        transform: translateX(156px) translateY(-85px) rotate(360deg);
+    }
+    40% {
+        transform: translateX(208px) translateY(-100px) rotate(480deg);
+    }
+    50% {
+        transform: translateX(260px) translateY(-110px) rotate(600deg);
+    }
+    60% {
+        transform: translateX(312px) translateY(-100px) rotate(720deg);
+    }
+    70% {
+        transform: translateX(368px) translateY(-85px) rotate(840deg);
+    }
+    80% {
+        transform: translateX(416px) translateY(-70px) rotate(960deg);
+    }
+    100% {
+        transform: translateX(520px) translateY(0px) rotate(1200deg);
+    }
+}

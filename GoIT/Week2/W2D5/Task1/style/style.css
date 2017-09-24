@@ -1,0 +1,52 @@
+.head {
+    background-color: #31b0d5;
+    height: 200px;
+    border: 2px solid black;
+}
+
+div {
+    padding: 15px;
+    font-size: 10px;
+}
+main div, footer div {
+    height: 100px;
+    border: 2px solid black;
+}
+.main-1 {
+    background-color: silver;
+}
+.main-2 {
+    background-color: whitesmoke;
+
+}
+.main-3 {
+    background-color: yellow;
+
+}
+.main-4 {
+    background-color: #ffcf32;
+
+}
+.main-5 {
+    background-color: #ffa544;
+}
+.main-6 {
+    background-color: #ff5436;
+}
+.main-7 {
+    background-color: green;
+}
+.main-8 {
+    background-color: #228059;
+}
+.main-9 {
+    background-color: #1c8072;
+}
+.foot-1 {
+    background-color: fuchsia;
+
+}
+.foot-2 {
+    background-color: #333333;
+    color: white;
+}

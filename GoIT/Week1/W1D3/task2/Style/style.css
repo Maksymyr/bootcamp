@@ -1,0 +1,52 @@
+html, body, div {
+    margin:0;
+    padding:0;
+}
+div {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    font-size: 0;
+
+}
+.mail {
+    width: 240px;
+    background-color: #d84a4a;
+    /*box-sizing: border-box;*/
+
+}
+input {
+    width: 180px;
+    height: 40px;
+    margin: 10px 0px 10px 10px;
+    font-size: 14px;
+    font-style: italic;
+    border: none;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.mail-icon {
+    background-image: url("../Pictures/mail.png");
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    margin: 10px 10px 10px 0px;
+
+}
+.external {
+    height: 120px;
+    width:240px;
+}
+.facebook {
+    background-image: url("../Pictures/fb.png");
+}
+.vk {
+    background-image: url("../Pictures/vk.png");
+}
+.twitter {
+    background-image: url("../Pictures/tw.png");
+}
+.rss {
+    background-image: url("../Pictures/rss.png");
+}

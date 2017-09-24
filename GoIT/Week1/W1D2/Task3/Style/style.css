@@ -1,0 +1,22 @@
+div {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+.image {
+    background: url(../Pictures/planeta-zemlya-kartinka.960x540.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ezik {
+    background: url(../Pictures/img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+   
+
+}

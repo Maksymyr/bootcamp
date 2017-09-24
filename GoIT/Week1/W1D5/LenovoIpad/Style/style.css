@@ -1,0 +1,65 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color: black;
+}
+.main {
+    background-color: white;
+    height: 550px;
+    width: 400px;
+    margin: 50px auto;
+    padding: 11px 10px;
+}
+.border {
+    border: 1px solid black;
+    height: 528px;
+    width: 379px;
+}
+.name {
+
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ipad {
+    background-image: url("../Pictures/ipad.jpeg");
+    height: 280px;
+    width: 230px;
+    background-size: cover;
+    margin: 13px auto 0px auto;
+}
+.sale {
+    height: 30px;
+    width: 192px;
+    background-color: #8bc144;
+    margin-top: 15px;
+    margin-left: -1px;
+    color: white;
+    font-size: 22px;
+    padding: 3px 40px;
+    box-shadow: -2px 2px 0px 0px #9c9c9c;
+}
+.price {
+    font-size: 32px;
+    margin: 16px  0px 0px 122px;
+}
+.buy {
+    height: 46px;
+    width: 229px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 6px;
+    margin: 13px 0px 0px 62px;
+    box-shadow: 0px 4px 0px 0px #850000;
+    border: none;
+}
+
+.buy:hover {
+    background-color: #8bc144;
+}

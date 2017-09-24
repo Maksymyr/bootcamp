@@ -1,0 +1,283 @@
+html, body, div {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: url("../images/cosmos.jpg") no-repeat;
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+
+}
+
+.sunsystem {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    top: 0 ;
+    left: 0;
+
+}
+
+.sun {
+    background: url("../images/sun.jpg") no-repeat;
+    height: 150px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    animation: orbit 205162ms linear infinite;
+    position: absolute;
+    z-index: 5;
+}
+.sun-block {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 275px;
+    left: 575px;
+}
+.merk {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 340px;
+    left: 640px;
+    animation: merk-orbit 22000ms linear infinite;
+}
+.venera {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 337px;
+    left: 637px;
+    animation: venera-orbit 53750ms linear infinite;
+}
+.earth {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 335px;
+    left: 635px;
+    animation: earth-orbit 91500ms linear infinite;
+}
+.mars {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 340px;
+    left: 640px;
+    animation: mars-orbit 171750ms linear infinite;
+}
+.jupiter {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 315px;
+    left: 615px;
+    animation: jupiter-orbit 109770ms linear infinite;
+}
+.saturn {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 335px;
+    left: 635px;
+    animation: saturn-orbit 169118ms linear infinite;
+}
+.uranus {
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 336px;
+    left: 636px;
+    animation: uranus-orbit 277200ms linear infinite;
+}
+.neptune {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 335px;
+    left: 635px;
+    animation: neptune-orbit 1507920ms linear infinite;
+}
+.merk-orb {
+    background: url("../images/merk.jpg") no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    animation: orbit 88000ms linear infinite;
+}
+.venera-orb {
+    background: url("../images/venera.jpg") no-repeat;
+    height: 26px;
+    width: 26px;
+    background-size: cover;
+    animation: orbit 5850ms linear infinite;
+}
+.earth-orb {
+    background: url("../images/earth.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    animation: orbit 5000ms linear infinite;
+}
+.mars-orb {
+    background: url("../images/mars.jpg") no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    animation: orbit 5200ms linear infinite;
+}
+.jupiter-orb {
+    background: url("../images/jupiter.jpg") no-repeat;
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    animation: orbit 11900ms linear infinite;
+}
+.saturn-orb {
+    background: url("../images/saturn.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+}
+.uranus-orb {
+    background: url("../images/uranus.jpg") no-repeat;
+    height: 28px;
+    width: 28px;
+    background-size: 100%;
+    animation: orbit 8000s linear infinite;
+}
+.neptune-orb {
+    background: url("../images/neptune.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+    animation: orbit 7000s linear infinite;
+}
+@keyframes orbit {
+     0% { transform: rotate(0deg);}
+     100% { transform: rotate(360deg);}
+}
+@keyframes merk-orbit {
+    0% { transform: rotate(0deg) translateX(100px); }
+    100% { transform: rotate(360deg) translateX(100px); }
+}
+
+@keyframes venera-orbit {
+    0% { transform: rotate(0deg) translateX(140px); }
+    100% { transform: rotate(360deg) translateX(140px); }
+}
+@keyframes earth-orbit {
+     0% { transform: rotate(0deg) translateX(200px); }
+     100% { transform: rotate(360deg) translateX(200px); }
+ }
+@keyframes mars-orbit {
+    0% { transform: rotate(0deg) translateX(280px); }
+    100% { transform: rotate(360deg) translateX(280px); }
+}
+@keyframes jupiter-orbit {
+    0% { transform: rotate(0deg) translateX(360px); }
+    100% { transform: rotate(360deg) translateX(360px); }
+}
+@keyframes saturn-orbit {
+    0% { transform: rotate(0deg) translateX(420px) rotate(0deg); }
+    100% { transform: rotate(360deg) translateX(420px) rotate(-360deg); }
+}
+@keyframes uranus-orbit {
+    0% { transform: rotate(0deg) translateX(450px) }
+    100% { transform: rotate(360deg) translateX(450px) ; }
+}
+@keyframes neptune-orbit {
+    0% { transform: rotate(0deg) translateX(490px) ; }
+    100% { transform: rotate(360deg) translateX(490px) ; }
+}
+.bb {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -75px;
+    left: 75px;
+    color: red;
+    overflow: hidden;
+    font-size: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 500px;
+    padding-top: 200%
+}
+.sun:hover {
+
+    animation: sun-bb 5.5s cubic-bezier(0.26, 0.85, 0.45, 0.69);
+    animation-fill-mode: forwards;
+}
+.sun-block:hover .bb {
+    position: absolute;
+    top: -430px;
+    left: -750px;
+    width: 1700px;
+    height: 960px;
+    border-radius: 50px;
+    background-color: white;
+    transition: 0.3s;
+    transition-delay: 5.5s;
+    z-index: 999;
+    color: black;
+    font-size: 120px;
+}
+.text {
+    color: white;
+    font-size: 0px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    animation: text 5s linear infinite;
+    animation-timing-function: cubic-bezier(1, -0.03, 0, 0.93);
+}
+@keyframes text {
+    0% {
+        font-size: 0px;
+        color: transparent;
+    }
+    50% {
+        font-size: 30px;
+        color: darkred;
+    }
+    100% {
+        font-size: 0px;
+        color: transparent;
+    }
+
+}
+@keyframes sun-bb {
+    0% {
+
+    }
+    40% {
+        background-image: url("../images/sun-red.jpg");
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: -175px;
+        top: -150px;
+    }
+    80% {
+        background-image: url("../images/sun-white3.png");
+        background-size: cover;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        background-image: url("../images/sun-red.jpg");
+        position: absolute;
+        top: -930px;
+        left: -850px;
+        width: 1800px;
+        height: 1800px;
+    }
+}

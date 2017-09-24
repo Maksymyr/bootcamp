@@ -1,0 +1,42 @@
+body {
+    background-color: #3f3f3f;
+}
+div {
+     height: 50px;
+     width: 140px;
+     background-color: white;
+     padding-top: 10px;
+     padding-left: 10px;
+
+
+}
+a {
+    text-decoration: none;
+}
+.text {
+    height: 20px;
+    width: 90px;
+    margin-bottom: 2px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: 8pt;
+}
+#ask {
+    padding-left: 30px;
+    width: 120px;
+}
+#duck {
+    padding-top: 5px;
+    padding-left: 40px;
+    height: 60px;
+    width: 110px;
+
+}
+#duckhref {
+    height: 20px;
+    width: 90px;
+    margin-bottom: 2px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: 8pt;
+}

@@ -1,0 +1,53 @@
+html, body, article, section, span, p, hr {
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 50px auto;
+    border: 5px solid #e3e3e3;
+    width: 295px;
+    height: 429px;
+    padding: 20px;
+    font-family: Arial;
+}
+img {
+    float: left;
+    margin-right: 20px;
+}
+article {
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 104px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: dimgray;
+    padding-top: 25px;
+}
+hr {
+    border: none;
+    margin-left: -20px;
+    height: 1px;
+    width: 335px;
+    color: #e3e3e3;
+    background-color: #e3e3e3;
+}
+span {
+    color: darkgray;
+    font-size: 12px;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.footer {
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+    color: black;
+}

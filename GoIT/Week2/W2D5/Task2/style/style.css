@@ -1,0 +1,115 @@
+header {
+    height: 420px;
+}
+main {
+    background: wheat;
+}
+.center {
+    width: 60%;
+}
+header .banner {
+    background: url("../img/bd-header.jpg") no-repeat;
+    height: 550px;
+    background-size: contain;
+}
+nav .row div {
+    line-height: 40px;
+}
+nav {
+    background: #202528;
+    height: 52px;
+}
+nav .row div {
+         line-height: 50px;
+     }
+main div:first-child {
+    height: 150px;
+}
+main div:last-child {
+}
+header div div {
+    font-size: 10px;
+    color: white;
+}
+.nomarg {
+    margin: 0;
+    padding: 0;
+}
+nav div div div a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 52px;
+    width: 75px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+nav div div div a:hover {
+    background-color: darkred;
+    color: beige;
+    text-decoration: none;
+}
+.name {
+    padding-left: 15px;
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    animation: site-name 1.5s infinite;
+
+}
+
+@keyframes site-name {
+    0% {
+
+    }
+    23% {
+        padding-top: 2px;
+        padding-left: 15px;
+
+        color: white;
+    }
+    25% {
+        padding-top: 0;
+        padding-left: 30px;
+
+        color: red;
+    }
+    27% {
+        padding-top: 10px;
+        padding-left: 0;
+        color: black;
+    }
+    29% {
+        padding-top: 1px;
+        padding-left: 10px;
+        color: darkred;
+    }
+    31% {
+        padding-top: 10px;
+        padding-left: 35px;
+        color: black;
+    }
+    33% {
+        padding-top: 2px;
+        padding-left: 3px;
+        color: red;
+    }
+    35% {
+        padding-top: 6px;
+        padding-left: 20px;
+        color: darkred;
+    }
+    38% {
+        padding-top: 2px;
+        padding-left: 15px;
+
+        color: white;
+    }
+    100% {
+        padding-top: 2px;
+        padding-left: 15px;
+
+        color: white;
+    }
+}

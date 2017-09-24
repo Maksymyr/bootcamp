@@ -1,0 +1,107 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+}
+
+
+.sect::after{
+    transition: 1.9s;
+
+}
+.sect:hover {
+    color: transparent;
+}
+.sect:hover::after {
+    opacity: 1.3;
+}
+
+div {
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-size: 10px;
+}
+.str-1, .str-3, .str-4 {
+    height: 80px;
+    width: 542px;
+    border: none;
+
+}
+.str-2 {
+    height: 80px;
+    width: 542px;
+    border: none;
+}
+.s1 {
+    width: 360px;
+    float:left;
+    background-image: url("../Pictures/images (2).jpeg");
+
+}
+.s2 {
+    width: 180px;
+    float:left;
+    background-image: url("../Pictures/images (1).jpeg");
+
+}
+.s3 {
+    width: 180px;
+    height: 160px;
+    float:left;
+    background-image: url("../Pictures/images (3).jpeg");
+
+}
+.s4 {
+    width: 360px;
+    float:left;
+    background-image: url("../Pictures/images (4).jpeg");
+    background-size: cover;
+}
+.s5 {
+    width: 180px;
+    float:left;
+    background-image: url("../Pictures/images.jpeg");
+    opacity: 0.8;
+}
+.s6 {
+    width: 180px;
+    float:left;
+    background-image: url("../Pictures/images.jpeg");
+}
+.s7, .s8, .s9, .s10 {
+    width: 90px;
+    float:left;
+    background-image: url("../Pictures/images (5).jpeg");
+    background-size: cover;
+}
+.s11, .s12, .s13 {
+    position: relative;
+    width: 60px;
+    float:left;
+    background-size: cover;
+    font-size: 20px;
+}
+#text {
+    position: absolute;
+    left: 180px;
+    width: 180px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.s11:after, .s12:after, .s13:after {
+    top: 0;
+    left: 0;
+    background-image: url("../Pictures/Без названия.jpeg");
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.3;
+}

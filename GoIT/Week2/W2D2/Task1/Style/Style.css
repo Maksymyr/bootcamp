@@ -1,0 +1,119 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+div {
+    font-size: 16px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 16px 32px;
+    box-sizing: border-box;
+}
+.first {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 107px;
+    border: 1px solid gray;
+    float: left;
+}
+.child-1 {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+
+}
+.child-2 {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+
+}
+.child-3 {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+}
+.children {
+    height-min: 150px;
+    width: 217px;
+    margin-left: -66px;
+    display: none;
+}
+.second {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 108px;
+    border: 1px solid gray;
+    float: left;
+}
+.third {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 127px;
+    border: 1px solid gray;
+    float: left;
+}
+.fourth {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 120px;
+    border: 1px solid gray;
+    float: left;
+}
+.fifth {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 198px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover,
+.child-1:hover, .child-2:hover, .child-3:hover, .ch1-inner div:first-child:hover,
+.ch1-inner div:nth-child(2):hover, .ch1-inner div:last-child:hover
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#11032e), to(#2a0d65));
+}
+.second:hover .children {
+    display: block;
+}
+
+.ch1-inner {
+    height-min: 150px;
+    width: 217px;
+    margin-left: 151px;
+    margin-top: -51px;
+    display: none;
+}
+.ch1-inner div:first-child {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+
+}
+.ch1-inner div:nth-child(2) {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+
+}
+.ch1-inner div:last-child {
+    background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));
+    height: 51px;
+    width: 217px;
+    border: 1px solid gray;
+
+}
+.child-3:hover .ch1-inner {
+    display: block;
+}

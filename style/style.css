@@ -1,9 +1,10 @@
-html, p, body, div, ul, li {
+html, p, body, div, ul, li, table, th, tr, td {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 12px;
     list-style-type: none;
+    border-collapse: collapse;
 }
 body {
     margin: 0 auto;
@@ -22,12 +23,8 @@ main {
     background-size: cover;
     padding: 4rem;
 }
+
 .main-mid {
-    background-color: whitesmoke;
-    max-width: 100%;
-    height: auto;
-}
-.main-lower {
     background: url("../images/stone-3.jpg");
     max-width: 100%;
     height: 60rem;
@@ -35,6 +32,11 @@ main {
     position: relative;
     padding: 5rem 2rem;
  }
+.main-lower {
+      background-color: #8ef0f5;
+      max-width: 100%;
+      height: 56rem;
+}
 .main-menu {
     width: 4rem;
     height: 4rem;
@@ -43,11 +45,10 @@ main {
     z-index: 2;
 }
 .main-button {
-    padding-top: 0.1rem;
     font-size: 3rem;
     width: 4rem;
     height: 4rem;
-
+    font-family: serif;
     border-radius: 2rem;
     text-align: center;
     background-color: red;
@@ -128,17 +129,17 @@ main {
     text-align: center;
     font-size: 10rem;
     color: black;
-    font-family: 'Savoye LET', 'Savoye', serif;
-    font-weight: bold;
-    margin-bottom: -2rem;
+    font-family: 'Champignon Script', serif;
+    /*font-weight: bold;*/
+
     margin-top: 12rem;
  }
 .main-discription {
     text-align: center;
     font-size: 5rem;
     color: black;
-    font-family: 'Champignon Script', 'Savoye LET', 'Savoye', serif;
-    font-weight: bold;
+    font-family: 'Champignon Script', serif;
+
 }
 .fb {
     background: url("../images/icons8-Facebook Filled-50.png");
@@ -188,7 +189,7 @@ main {
     width: 14rem;
     height: 2rem;
     clear: both;
-    margin-top: 2rem;
+    margin-top: 20rem;
     margin-left: 43%;
 }
 .fb:hover {
@@ -273,14 +274,29 @@ main {
     margin-left: -1rem;
 
 }
+
+.main-lower td {
+    box-shadow: inset 0 0 0.2rem 0.2rem whitesmoke;
+    height: 8rem;
+    width: 20rem;
+    padding: 0 2rem;
+}
+.main-lower th {
+    font-size: 3rem;
+    height: 4rem;
+    box-shadow: inset 0 0 0.2rem 0.2rem whitesmoke;
+    width: 20rem;
+}
+
+
 @font-face {
-    font-family: 'Champignon Script';
-    src: local('Champignon Script'), url('../fonts/Champignon Script.ttf');
+    font-family: 'HenryMorganHand';
+    src: url('../fonts/HenryMorganHand.ttf');
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Savoye';
-    src: local('Savoye LET'), url('../fonts/Savoye-LET.ttf');
+    font-family: 'Champignon Script';
+    src: local('Champignon Script'), url('../fonts/Champignon Script.ttf');
     font-weight: 300;
 }
 @font-face {

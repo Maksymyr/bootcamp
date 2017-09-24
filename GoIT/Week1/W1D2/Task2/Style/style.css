@@ -1,0 +1,43 @@
+
+.bird {
+    background-image: url(../Pictures/angry.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    background-position: 46% 95%;
+    background-size: 1110%;
+}
+.bird-2 {
+    background-image: url(../Pictures/angry.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    background-position: 46% 95%;
+    background-size: 1110%;
+}
+.bird-3 {
+    background-image: url(../Pictures/angry.png);
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 180px;
+    background-position: 46% 95%;
+    background-size: 1110%;
+}
+.image-small {
+border: 1px solid black;
+margin: 5px;
+height: 40px;
+width: 40px;
+}
+.image-mid {
+border: 1px solid black;
+margin: 5px;
+height: 70px;
+width: 70px;
+}
+.image-big {
+border: 1px solid black;
+margin: 5px;
+height: 180px;
+width: 180px;
+}

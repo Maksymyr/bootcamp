@@ -1,0 +1,35 @@
+body {
+    font-family:"PT Sans Narrow";
+    font-weight: bold;
+    font-size: 14px;
+}
+div {
+    width: 220px;
+    height: 300px;
+}
+span {
+    display: inline-block;
+    background-color: #e7e7e7;
+    height: 33px;
+    width: 115px;
+    margin-left: 15px;
+    padding-top: 14px;
+    text-align: center;
+}
+p {
+    padding-left: 15px;
+}
+#ex-block {
+    background-color: #f8f4f2;
+    padding: 15px;
+}
+#in-block {
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px gainsboro;
+}
+#buy-block {
+    background-color: #000000;
+    color: white;
+    width: 75px;
+    margin-left: -3px;
+}

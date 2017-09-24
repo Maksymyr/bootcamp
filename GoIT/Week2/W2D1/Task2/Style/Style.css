@@ -1,0 +1,282 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 700px;
+    width: 700px;
+    background-color: white;
+}
+.main {
+    width: 100px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    top: 65px;
+    left: 50px;
+    color: wheat;
+}
+.task {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin:  50px auto;
+    position: relative;
+}
+.bottom {
+     width: 80px;
+     height: 50px;
+     background-color: black;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+    color: transparent;
+ }
+.left {
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    padding-left: 14px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: wheat;
+}
+.up {
+    width: 80px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: transparent;
+}
+.right {
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: transparent;
+
+}
+
+.left:hover {
+    z-index: 9;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: wheat;
+
+}
+.bottom:hover {
+    z-index: 9;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: wheat;
+}
+.right:hover {
+    z-index: 9;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: wheat;
+}
+.up:hover {
+    z-index: 9;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: wheat;
+}
+.up:hover ~ .upper-case{
+    display: block;
+}
+
+.bottom:after {
+    content: "";
+    /*background-image: url("../pictures/arrow-up.png");*/
+    height: 0px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: 135px;
+    left: 35px;
+    z-index: -1;
+    /*transition-delay: 0.5s;*/
+}
+.bottom:hover:after {
+    content: "";
+    background-image: url("../pictures/arrow-up.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: 84px;
+    left: 35px;
+    transition: 1s;
+    display: block;
+}
+.upper-case {
+    background-color: black;
+    height: 0;
+    width: 100px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.up:after {
+    content: "";
+    height: 0px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: -110px;
+    left: 35px;
+    z-index: -2;
+    /*transition-delay: 0.5s;*/
+}
+.up:hover:after {
+    content: "";
+    background-image: url("../pictures/arrow-down.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: -59px;
+    left: 35px;
+    transition: 1s;
+}
+.bottom-case {
+    background-color: black;
+    height: 0px;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.up:hover .upper-case {
+    height: 50px;
+    transition: 1s;
+}
+.bottom:hover .bottom-case {
+    height: 50px;
+    transition: 1s;
+    top: 100px;
+}
+.left-case {
+    background-color: black;
+    height: 100px;
+    width: 0px;
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    overflow: hidden;
+}
+
+.left:after {
+    content: "";
+    height: 25px;
+    width: 0px;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: -110px;
+    z-index: -1;
+    /*transition-delay: 0.5s;*/
+}
+.left:hover:after {
+    content: "";
+    background-image: url("../pictures/arrow-right.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    transition: 1s;
+}
+.right-case {
+    background-color: black;
+    height: 100px;
+    width: 0px;
+    position: absolute;
+    top: -20px;
+    left: 190px;
+    overflow: hidden;
+
+}
+
+.right:after {
+    content: "";
+    height: 25px;
+    width: 0px;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: 175px;
+    z-index: -1;
+    /*transition-delay: 0.5s;*/
+}
+.right:hover:after {
+    content: "";
+    background-image: url("../pictures/arrow-left.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    left: 125px;
+    transition: 1s;
+}
+.left:hover .left-case {
+    width: 50px;
+    transition: 1s;
+
+    left: -100px;
+}
+.right:hover .right-case {
+    width: 50px;
+    transition: 1s;
+
+    left: 140px;
+}

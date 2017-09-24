@@ -1,0 +1,170 @@
+html, body, div, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/bg.jpg");
+    height: 1200px;
+    width: 1920px;
+}
+
+.menu li div span:first-child {
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.menu li div span:last-child {
+    color: #0B75AF;
+    float: left;
+    clear: both;
+    width: 155px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.menu {
+    font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+    margin-top: 200px;
+    margin-left: 10px;
+    height-min: 84px;
+    width-min: 1100px;
+    /*overflow: hidden;*/
+}
+.menu li {
+    height: 82px;
+    width: 170px;
+    float: left;
+    position: relative;
+}
+.text {
+    background-image: url("../images/overlay.png");
+    height: 82px;
+    width: 170px;
+    background-size: cover;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    transition: 0.5s;
+
+}
+.menu li:hover .text {
+    background: #181818;
+    margin-top: 0;
+    height: 160px;
+    width: 170px;
+    transition: 0.8s;
+    padding-top: 40px;
+    position: absolute;
+    top: 82px;
+    border: none;
+    border: 1px solid black;
+}
+.img {
+    /*background-image: url("../images/1.jpg");*/
+    background-size: cover;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 65px;
+    left: 84px;
+    transition: 0.5s;
+
+}
+.menu li:hover .img {
+    height: 170px;
+    width: 170px;
+    margin-top: 0px;
+    margin-left: 0px;
+    transition: 0.8s;
+    position: absolute;
+    top: -88px;
+    left: 0px;
+    z-index: 2;
+    border: 1px solid black;
+
+
+}
+.upper-img {
+    background-image: url("../images/title.png");
+    height: 69px;
+    width: 633px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.i1 {
+    background-image: url("../images/1.jpg");
+}
+.i2 {
+    background-image: url("../images/2.jpg");
+}
+.i3 {
+    background-image: url("../images/3.jpg");
+}
+.i4 {
+    background-image: url("../images/4.jpg");
+}
+.i5 {
+    background-image: url("../images/5.jpg");
+}
+.i6 {
+    background-image: url("../images/6.jpg");
+}
+.next {
+    height: 160px;
+    width: 0px;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 82px;
+    left: 170px;
+    color: transparent;
+transition: 0.1s;
+
+}
+.next2 {
+    height: 160px;
+    width: 0px;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    color: transparent;
+transition: 0.1s;
+
+}
+
+.menu li:hover .next {
+    background-color: black;
+    width: 170px;
+    z-index: 3;
+    transition: .4s ease-out;
+    transition-delay: 0.5s;
+    color: white;
+    border: 1px solid black;
+}
+.menu li:hover .next2 {
+    background-color: black;
+    width: 170px;
+    z-index: 3;
+    transition: .4s ease-out;
+    transition-delay: 0.5s;
+    position: absolute;
+    top: 82px;
+    left: -170px;
+    color: white;
+    border: 1px solid black;
+
+}
+.next p, .next2 p {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+p:hover {
+    color: orange;
+}

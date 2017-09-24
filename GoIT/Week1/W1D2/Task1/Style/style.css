@@ -1,0 +1,43 @@
+div.task-1 {
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+}
+p {
+     margin-top: 15px;
+}
+.icon-1 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Pictures/menu.png);
+    float: left;
+}
+.icon-2 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Pictures/menu.png);
+    background-position: right 22% top 25%;
+    float: left;
+}
+.icon-3 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Pictures/menu.png);
+    background-position: right 77% top 25%;
+    float: left;
+}
+.icon-4 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Pictures/menu.png);
+    background-position: right 77% top 50%;
+    float: left;
+}
+.icon-5 {
+    height: 50px;
+    width: 50px;
+    background-image: url(../Pictures/menu.png);
+    background-position: right 77% top 75%;
+    float: left;
+}

@@ -1,0 +1,175 @@
+html, body, h1, h2, ul , li, div {
+    margin: 0;
+    padding: 0;
+}
+html {
+    display: block;
+}
+body {
+    background: #111 -webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111)) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+.wrap {
+    width: 438px;
+    height: 528px;
+    margin: auto;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 60px 0 20px;
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+h1, h2 {
+    font-family: "Myriad Pro",Arial,Helvetica,sans-serif;
+}
+p.note {
+    color: #707070;
+    font-size: 10px;
+    text-align: center;
+    margin: 50px;
+}
+p {
+    display: block;
+}
+a, a:visited, a:active {
+    color: #0196e3;
+    text-decoration: none;
+    outline: none;
+}
+
+.central {
+    width: 40px;
+    height: 215px;
+    margin: 80px auto;
+}
+
+.central li {
+    /*width: 44px;*/
+    /*height: 43px;*/
+    list-style: none;
+    height: 39px;
+    padding: 2px;
+    width: 40px;
+}
+.first {
+    background: url("../Pictures/navigation.jpg") no-repeat;
+    height: 39px;
+    width: 38px;
+    display: block;
+    position: relative;
+}
+.second {
+    height: 39px;
+    width: 38px;
+    display: block;
+    position: relative;
+    background: url("../Pictures/navigation.jpg") no-repeat -38px 0;
+}
+.third {
+    background: url("../Pictures/navigation.jpg") no-repeat -76px 0;
+    height: 39px;
+    width: 38px;
+    display: block;
+    position: relative;
+}
+.fourth {
+    background: url("../Pictures/navigation.jpg") no-repeat -114px 0;
+    height: 39px;
+    width: 38px;
+    display: block;
+    position: relative;
+}
+.fifth {
+    background: url("../Pictures/navigation.jpg") no-repeat -152px 0;
+    height: 39px;
+    width: 38px;
+    display: block;
+    position: relative;
+}
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover {
+    box-shadow: 0 0 1px 1px white;
+}
+.central span {
+    position: absolute;
+    left: 38px;
+    overflow: hidden;
+    font-family: 'Myriad Pro',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    white-space: nowrap;
+    line-height: 39px;
+    transition: 0.25s;
+}
+.fs-inner {
+    width: 0px;
+    height: 39px;
+    background-color: #7da315;
+    color: #3d4f0c;
+    text-shadow: 1px 1px 0 #99bf31;
+    text-align: center;
+}
+.first:hover .fs-inner {
+    width: 90px;
+    transition: 0.25s;
+}
+.sd-inner {
+    width: 0px;
+    height: 39px;
+    background-color: #1e8bb4;
+    color: #223a44;
+    text-shadow: 1px 1px 0 #44a8d0;
+    text-align: center;
+}
+.second:hover .sd-inner {
+    width: 90px;
+    transition: 0.25s;
+}
+.td-inner {
+    width: 0px;
+    height: 39px;
+    background-color: #c86c1f;
+    color: #5a3517;
+    text-shadow: 1px 1px 0 #d28344;
+    text-align: center;
+}
+.third:hover .td-inner {
+    width: 110px;
+    transition: 0.25s;
+}
+.fr-inner {
+    width: 0px;
+    height: 39px;
+    background-color: #d0a525;
+    color: #604e18;
+    text-shadow: 1px 1px 0 #d8b54b;
+    text-align: center;
+}
+.fourth:hover .fr-inner {
+    width: 110px;
+    transition: 0.25s;
+}
+.ff-inner {
+    width: 0px;
+    height: 39px;
+    background-color: #af1e83;
+    color: #460f35;
+    text-shadow: 1px 1px 0 #d244a6;
+    text-align: center;
+}
+.fifth:hover .ff-inner {
+    width: 130px;
+    transition: 0.25s;
+}

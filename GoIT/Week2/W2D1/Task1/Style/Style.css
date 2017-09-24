@@ -1,0 +1,95 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 200px;
+    width: 100px;
+    margin: 100px auto;
+}
+.papa {
+    /*margin-top: 10px;*/
+    width: 200px;
+    height: 100px;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    position: relative;
+}
+.child {
+    width: 200px;
+    height: 100px;
+    background-color: dimgray;
+
+    box-sizing: border-box;
+    transition: 0.5s;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.child:hover {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: darkgreen;
+    z-index: 2;
+
+}
+.p {
+    margin-top: 50px;
+}
+
+.papa-2 {
+    width: 200px;
+    height: 100px;
+    background-color: dimgrey;
+    overflow: hidden;
+
+}
+.mama {
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+
+}
+.child-2 {
+    width: 200px;
+    height: 100px;
+    margin-left: 0px;
+    background-image: url("../pict1.jpeg");
+    background-size: cover;
+    /*transition: 0.5s;*/
+    /*overflow: hidden;*/
+    /**/
+    float: left;
+    transition: 1s;
+
+}
+.child-3 {
+    width: 200px;
+    height: 100px;
+    margin-left: 0px;
+    background-image: url("../pict2.jpeg");
+    background-size: cover;
+    float: left;
+    color: white;
+
+    /*transition: 0.5s;*/
+    /*overflow: hidden;*/
+    /**/
+}
+.papa-2:hover .child-2 {
+    width: 200px;
+    height: 100px;
+    margin-left: -200px;
+    transition: 1s;
+}
+
+/*.papa-2:hover .child-3 {*/
+    /*width: 200px;*/
+    /*height: 100px;*/
+    /*background-color: black;*/
+    /*margin-left: 0px;*/
+    /*transition: 1s;*/
+/*}*/

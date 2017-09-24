@@ -1,0 +1,50 @@
+body {
+    background-color: #888;
+    font-family: Arial;
+}
+div {
+    background-color: #333333;
+    margin: auto;
+    font-size: 16px;
+}
+
+h1 {
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 24px;
+}
+img {
+    margin-left: 100px;
+    border-radius: 100px;
+}
+p {
+    color: #eee;
+}
+#green-text {
+    color: green;
+}
+#ex-block {
+    margin-top: 50px;
+    width: 450px;
+    border: 4px solid white; /* Ком.№1: в задании указана ширина 4px и 6px,
+                             но на образце они визуально одинаковы, поэтому
+                             решил сделать как в примере.*/
+    padding: 10px;
+    box-shadow: 10px 10px 5px #333333; /* внешняя тень главного блока.*/
+}
+#in-block {
+
+    width: 400px;
+    border-top: 4px solid white; /* по ширине бордеров см. Ком.№1 :) */
+    border-bottom: 4px solid black;
+}
+ #button {
+     background-color: #dedcde;
+     border: 1px solid black;
+     margin: 20px auto 30px;
+     width: 140px;
+     height: 25px;
+     padding-top: 7px;
+     text-align: center;
+     border-radius: 1px;
+ }
