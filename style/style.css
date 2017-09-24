@@ -79,7 +79,7 @@ main {
 }
 .main-menu-ul li {
     font-size: 1.5rem;
-    font-family: "Comfortaa", serif;
+    font-family: 'Comfortaa', serif;
     font-weight: bold;
     padding-top: 1.8rem;
     margin-top: 0.4rem;
@@ -128,7 +128,7 @@ main {
     text-align: center;
     font-size: 10rem;
     color: black;
-    font-family: "Savoye LET", serif;
+    font-family: 'Savoye LET', serif;
     font-weight: bold;
     margin-bottom: -2rem;
     margin-top: 12rem;
@@ -137,7 +137,7 @@ main {
     text-align: center;
     font-size: 5rem;
     color: black;
-    font-family: "Savoye LET", serif;
+    font-family: 'Savoye LET', serif;
     font-weight: bold;
 }
 .fb {
@@ -214,7 +214,7 @@ main {
     text-align: center;
     height: 4rem;
     font-size: 5rem;
-    font-family: "Russo", sans-serif;
+    font-family: 'Russo', sans-serif;
     color: black;
     animation: skills-anim 2s infinite;
 }
@@ -229,7 +229,7 @@ main {
     width: 43%;
     color: whitesmoke;
     float: left;
-    font-family: "Russo", sans-serif;
+    font-family: 'Russo', sans-serif;
     text-align: left;
 }
 .main-skills ul:last-child {
