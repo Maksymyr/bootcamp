@@ -33,9 +33,10 @@ main {
     padding: 5rem 2rem;
  }
 .main-lower {
-      background-color: #8ef0f5;
+      background-color: whitesmoke;
       max-width: 100%;
       height: 56rem;
+    padding: 3rem 3rem;
 }
 .main-menu {
     width: 4rem;
@@ -276,15 +277,16 @@ main {
 }
 
 .main-lower td {
-    box-shadow: inset 0 0 0.2rem 0.2rem whitesmoke;
+    box-shadow: inset 0 0 0.2rem 0.2rem gray;
     height: 8rem;
     width: 20rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
+    text-align: center;
 }
 .main-lower th {
     font-size: 3rem;
     height: 4rem;
-    box-shadow: inset 0 0 0.2rem 0.2rem whitesmoke;
+    box-shadow: inset 0 0 0.2rem 0.2rem gray;
     width: 20rem;
 }
 
