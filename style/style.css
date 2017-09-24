@@ -8,7 +8,7 @@ html, p, body, div, ul, li, table, th, tr, td {
 }
 body {
     margin: 0 auto;
-    background: white;
+    background: gray;
     min-width: 800px;
     max-width: 1500px;
     width: auto;
@@ -32,15 +32,15 @@ main {
 .main-mid {
     background: url("../images/stone-3.jpg");
     max-width: 100%;
-    height: 60rem;
+    height: 70rem;
     background-size: cover;
     position: relative;
-    padding: 5rem 2rem;
+    padding: 10rem 2rem;
  }
 .main-lower {
       background-color: whitesmoke;
       max-width: 100%;
-      height: 56rem;
+      height: 60rem;
     padding: 3rem 3rem;
 }
 
