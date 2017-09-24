@@ -16,6 +16,12 @@ body {
 main {
     overflow: hidden;
 }
+
+
+                         /*Main blocks*/
+
+
+
 .main-upper {
     background: url("../images/city.jpg");
     max-width: 100%;
@@ -23,7 +29,6 @@ main {
     background-size: cover;
     padding: 4rem;
 }
-
 .main-mid {
     background: url("../images/stone-3.jpg");
     max-width: 100%;
@@ -38,6 +43,15 @@ main {
       height: 56rem;
     padding: 3rem 3rem;
 }
+
+
+
+
+                         /*Menu block*/
+
+
+
+
 .main-menu {
     width: 4rem;
     height: 4rem;
@@ -55,13 +69,10 @@ main {
     background-color: red;
     color: white;
     animation: blinking 15s infinite;
-
-
 }
 .main-menu:hover {
     width: 20rem;
     height: 42rem;
-
 }
 .main-menu:hover .main-button {
     display: none;
@@ -70,16 +81,13 @@ main {
 .main-menu:hover .main-menu-ul {
     display: block;
 }
-
-
 .main-menu-ul {
     display: none;
     width: auto;
     height: 42rem;
     margin-top: -1.5rem;
-
 }
-.main-menu-ul li {
+.main-menu-ul a div {
     font-size: 1.5rem;
     font-family: 'Comfortaa', serif;
     font-weight: bold;
@@ -87,15 +95,12 @@ main {
     margin-top: 0.4rem;
     height: 5rem;
     width: auto;
-    /*border: 0.2rem solid whitesmoke;*/
     background:url("../images/images.png") no-repeat;
     background-size: cover;
     text-align: center;
     border-radius: 1rem;
-
 }
-
-.main-menu-ul li:hover {
+.main-menu-ul a div:hover {
     box-shadow: inset 0 0 0.4rem 0.4rem black;
     font-size: 1.7rem;
     padding-top: 1.75rem;
@@ -104,44 +109,44 @@ main {
     color: whitesmoke;
     text-decoration: none;
 }
-.menu-li-1:hover {
-    color: blue;
-}
-.menu-li-2:hover {
-    color: green;
-}
-.menu-li-3:hover {
-    color: red;
-}
-.menu-li-4:hover {
-    color: yellow;
-}
-.menu-li-5:hover {
-    color: orange;
-}
-.menu-li-6:hover {
-    color: darkviolet;
-}
-.menu-li-7:hover {
-    color: #63b6e6;
-}
+.menu-li-1:hover {  color: blue;  }
+.menu-li-2:hover {  color: green;  }
+.menu-li-3:hover {  color: red;  }
+.menu-li-4:hover {  color: yellow;  }
+.menu-li-5:hover {  color: orange;  }
+.menu-li-6:hover {  color: darkviolet;  }
+.menu-li-7:hover {  color: #63b6e6;  }
+
+
+
+
+                            /*Name + description*/
+
+
+
 
 .main-name {
     text-align: center;
     font-size: 10rem;
     color: black;
     font-family: 'Champignon Script', serif;
-    /*font-weight: bold;*/
-
     margin-top: 12rem;
  }
-.main-discription {
+.main-description {
     text-align: center;
     font-size: 5rem;
     color: black;
     font-family: 'Champignon Script', serif;
 
 }
+
+
+
+                            /*Social pages*/
+
+
+
+
 .fb {
     background: url("../images/icons8-Facebook Filled-50.png");
     width: 2rem;
@@ -193,21 +198,17 @@ main {
     margin-top: 20rem;
     margin-left: 43%;
 }
-.fb:hover {
-    box-shadow: 0 0 0.2rem 0.2rem #4267b2;
-}
-.linkid:hover {
-    box-shadow: 0 0 0.2rem 0.2rem #0073b1;
-}
-.github:hover {
-    box-shadow: 0 0 0.2rem 0.2rem #24292e;
-}
-.solo:hover {
-    box-shadow: 0 0 0.2rem 0.2rem #1abc9c;
-}
-.google:hover {
-    box-shadow: 0 0 0.2rem 0.2rem red;
-}
+.fb:hover {  box-shadow: 0 0 0.2rem 0.2rem #4267b2;  }
+.linkid:hover {  box-shadow: 0 0 0.2rem 0.2rem #0073b1;  }
+.github:hover {  box-shadow: 0 0 0.2rem 0.2rem #24292e;  }
+.solo:hover {  box-shadow: 0 0 0.2rem 0.2rem #1abc9c;  }
+.google:hover {  box-shadow: 0 0 0.2rem 0.2rem red;  }
+
+
+
+                                     /*PHOTO*/
+
+
 
 /*.main-photo {*/
     /*background: url("../images/YaClear.png");*/
@@ -228,6 +229,10 @@ main {
 
 
 
+                             /*Skills block*/
+
+
+
 
 .skills-anim {
     text-align: center;
@@ -241,7 +246,6 @@ main {
     width: 100%;
     clear: both;
 }
-
 .main-skills ul {
     margin: 5% 7% 0% 7%;
     font-size: 3rem;
@@ -256,7 +260,6 @@ main {
     margin-right: 0;
     margin-left: 0;
     text-align: left;
-
 }
 .main-skills ul li {
     margin-top: 1rem;
@@ -267,14 +270,19 @@ main {
 }
 .main-skills ul li:first-child {
     margin-top: 2.5rem;
-
 }
 .battery {
     height: 5rem;
     width: 36rem;
     margin-left: -1rem;
-
 }
+
+
+
+                            /*Table block*/
+
+
+
 
 .main-lower td {
     box-shadow: inset 0 0 0.2rem 0.2rem gray;
@@ -289,6 +297,11 @@ main {
     box-shadow: inset 0 0 0.2rem 0.2rem gray;
     width: 20rem;
 }
+
+
+
+                            /*FONTS*/
+
 
 
 @font-face {
@@ -317,6 +330,13 @@ main {
     font-weight: 300;
 }
 
+
+
+                            /*ANIMATIONS*/
+
+
+
+
 @keyframes skills-anim {
     0% { padding-top: 2px;  padding-left: 15px;  color: black;  }
     22% { padding-top: 2px;  padding-left: 15px;  color: black;  }
@@ -340,26 +360,9 @@ main {
     77% { transform: rotate(360deg); background-color: green}
     95% { transform: rotate(360deg); background-color: green}
     100% { transform: rotate(0deg); background-color: red}
-    /**/
-    /*10% { background-color: red; transform: rotate(0deg) translateX(0rem);}*/
-    /*12% { background-color: red; transform: rotate(180deg) translateX(0rem); }*/
-    /*14% { background-color: #020b80; transform: rotate(180deg) translateX(0rem);}*/
-    /*40% { transform: rotate(180deg) translateX(0rem);}*/
-    /*42% { background-color: #020b80; transform: rotate(0deg) translateX(0rem);}*/
-    /*44% { background-color: orange; transform: rotate(0deg) translateX(0rem);}*/
-    /*70% { transform: rotate(0deg) translateX(0rem);}*/
-    /*72% { background-color: orange; transform: rotate(180deg) translateX(0rem);}*/
-    /*74% { background-color: green; transform: rotate(180deg) translateX(0rem); }*/
 }
 @keyframes button-down {
     0% {}
-    90% {
-        transform: translateX(0rem) translateY(24rem) rotate(300deg);
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(0rem) translateY(26rem) rotate(360deg);
-        opacity: 0;
-
-    }
+    90% {  transform: translateX(0rem) translateY(24rem) rotate(300deg);  opacity: 1;  }
+    100% {  transform: translateX(0rem) translateY(26rem) rotate(360deg);  opacity: 0;  }
 }
