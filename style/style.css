@@ -276,15 +276,18 @@ main {
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('../fonts/Comfortaa-Regular.ttf');
+    src: local('Comfortaa'), url('../fonts/Comfortaa-Regular.ttf');
+    font-weight: 300;
 }
 @font-face {
     font-family: 'Russo';
-    src: url('../fonts/RussoOne.ttf');
+    src: local('Russo'), url('../fonts/RussoOne.ttf');
+    font-weight: 300;
 }
 @font-face {
     font-family: 'Sarina';
-    src: url('../fonts/Sarina-Regular.ttf');
+    src: local('Sarina'), url('../fonts/Sarina-Regular.ttf');
+    font-weight: 300;
 }
 
 @keyframes skills-anim {
