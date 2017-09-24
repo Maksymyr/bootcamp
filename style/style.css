@@ -128,7 +128,7 @@ main {
     text-align: center;
     font-size: 10rem;
     color: black;
-    font-family: 'Savoye LET', serif;
+    font-family: 'Savoye LET', 'Savoye', serif;
     font-weight: bold;
     margin-bottom: -2rem;
     margin-top: 12rem;
@@ -137,7 +137,7 @@ main {
     text-align: center;
     font-size: 5rem;
     color: black;
-    font-family: 'Savoye LET', serif;
+    font-family: 'Champignon Script', 'Savoye LET', 'Savoye', serif;
     font-weight: bold;
 }
 .fb {
@@ -274,7 +274,12 @@ main {
 
 }
 @font-face {
-    font-family: 'Savoye LET';
+    font-family: 'Champignon Script';
+    src: local('Champignon Script'), url('../fonts/Champignon Script.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Savoye';
     src: local('Savoye LET'), url('../fonts/Savoye-LET.ttf');
     font-weight: 300;
 }
