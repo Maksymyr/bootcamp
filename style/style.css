@@ -61,7 +61,7 @@ main {
 }
 .main-button {
     font-size: 1.8rem;
-    padding-top: 1rem;
+    line-height: 4rem;
     width: 4rem;
     height: 4rem;
     font-family: 'Courier', serif;
