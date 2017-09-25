@@ -60,7 +60,8 @@ main {
     z-index: 2;
 }
 .main-button {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    padding-top: 1rem;
     width: 4rem;
     height: 4rem;
     font-family: 'Courier', serif;
