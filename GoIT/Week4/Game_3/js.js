@@ -106,4 +106,7 @@ var secondCard = null;
 				}, 1000);
 			}
 		}
+		if (n.length == 0) {
+			stepInp.value = 'WIN!!!';
+		}
 }
