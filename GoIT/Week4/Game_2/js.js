@@ -2,13 +2,51 @@ var numRand = [];
 var fontSizeRand = [];
 var colorRand = [];
 var number = '';
+
+
+
+// timer // dimas added
+var second = 60.00;
+
+var toSecond = document.getElementById('second');
+toSecond.value = second;
+
+var end = 0;
+setTimeout(timer, 5000);
+
+function timer(){
+    setInterval(function () {
+        if( second > 0){ second=roundPlus(second-0.1);
+            if(numRand.length==0){
+                second="WIN!!!";
+            }
+            toSecond.value = second;
+
+        }
+        else if(numRand.length>0 && second==0){
+            second = "LOSE!!!";
+            toSecond.value = second;
+
+        }
+        else{
+            clearInterval(second);
+        }
+
+    }, 100)
+}
+//for round number for timer
+function roundPlus(x) { //x - число, n - количество знаков
+    var m = Math.pow(10,1);
+    return Math.round(x*m)/m;
+}
+
 /* Генеруємо рандомний масив кольорів colorRand */
 function runColor(){
 	for (var a=['red','green','blue','gold','black','red','green','blue','gold','black','lime','brown','pink','indigo','peach-puff','red','green','blue','gold','black','lime','brown','pink','indigo','peach-puff'], i = a.length; i--; ) {
     	var random = a.splice(Math.floor(Math.random() * (i + 1)), 1)[0];
     	colorRand.push(random);
 	}
-	
+
 }
 runColor();
 
@@ -42,8 +80,8 @@ document.getElementById('wrap').innerHTML = number;
 /* Змінюємо властивості блоків по кольору та висоті шрифту */
 for(i=0;i<colorRand.length;i++){
 	var a = document.getElementById(''+i+'');
-	a.style.color = ''+colorRand[i]+'';	
-	a.style.fontSize = ""+fontSizeRand[i]+"px";	
+	a.style.color = ''+colorRand[i]+'';
+	a.style.fontSize = ""+fontSizeRand[i]+"px";
 }
 
 
@@ -59,9 +97,25 @@ for(var i=0; i<numHolders.length; i++){
         	var numIndex = numRand.indexOf(clickedNumber); // выводим индекс нажатого числа
             numRand.splice(numIndex, 1); //вырезаем после нажатия, чтобы не повторялось
             this.style.backgroundColor = "#b2dfdb";
+
         }
         else{
-            this.style.backgroundColor = "#ffab91";
+            // this.style.backgroundColor = "#ffab91";
+            var speechBubble = ["Are you serious?", "Wro-o-ong!", "Are you kidding me?", "Try one more time", "HA-HA," +
+			" LOSER!", "PADA-BOOM! WRONG"];
+			// длина массива
+                var len_arr = speechBubble.length;
+			// случайное число от 0 до длинны массива
+                var random_number = [Math.floor(Math.random() * len_arr)];
+			// достаем случайный элемент из массива
+                var rand_el_bubble = speechBubble[random_number];
+			// вывод
+				var textForm = document.getElementById("speech-bubble-text");
+
+                textForm.value = rand_el_bubble;
+                setTimeout( function () { textForm.value = null;
+                }, 3000);
+
         }
         console.log(numRand);
     });
