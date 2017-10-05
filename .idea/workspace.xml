@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7985608-437d-448e-8977-b40cfdb242e7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/1.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/10.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/11.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/12.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/2.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/4.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/6.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/7.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/8.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/9.png" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/images/9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/Game_3/style.css" afterPath="$PROJECT_DIR$/GoIT/Week4/Game_3/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,6 +30,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoIT/Week4/Game/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
@@ -151,16 +173,15 @@
       <workItem from="1506290806125" duration="803000" />
       <workItem from="1506324525567" duration="2090000" />
       <workItem from="1507187366749" duration="862000" />
-      <workItem from="1507211737364" duration="26000" />
+      <workItem from="1507211737364" duration="856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46366000" />
+    <option name="totallyTimeSpent" value="47196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -325,6 +346,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="248" column="78" lean-forward="false" selection-start-line="248" selection-start-column="78" selection-end-line="248" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/Week4/Game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
