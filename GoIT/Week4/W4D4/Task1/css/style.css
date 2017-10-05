@@ -1,0 +1,17 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+#block{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    /*margin: 0 auto;*/
+    position: relative;
+}
+.style {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+}
