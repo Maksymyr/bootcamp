@@ -1,32 +1,97 @@
-html, p, body, div, ul, li, table, th, tr, td {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 12px;
-    list-style-type: none;
-    border-collapse: collapse;
-}
 body {
     margin: 0 auto;
     background: gray;
     min-width: 800px;
     max-width: 1500px;
-    width: auto;
+    /*width: auto;*/
+}
+ .header-logo {
+     background: url("../images/fish.jpg");
+     background-size: cover;
+     background-position: center;
+    height: 10rem;
+
 }
 .header {
-    /*background: url("../images/cosmos3.jpg") no-repeat;*/
+    background: url("../images/cos-2.jpg");
+    background-size: contain;
     height: 10rem;
-    margin: 0;
-    padding: 0;
-    /*background-size: cover;*/
+    font-size: 3rem;
+    color: whitesmoke;
+    line-height: 10rem;
+    text-align: right;
 }
-.main, .content {
-    height: 80rem;
-    margin: 0;
+.header h1 {
+    margin-right: 3rem;
+    margin-top: 3rem;
+    animation: name-anim 3s infinite;
+}
+.aside {
+    height: 72rem;
+    background: #222;
     padding: 0;
+    box-shadow: inset 0 0 0.5rem 0.5rem black;
+}
+.content {
+    background: url("../images/cos-2.jpg");
+    background-size: contain;
+    height: 72rem;
+
 }
 .footer {
-    height: 10rem;
-    margin: 0;
-    padding: 0;
+    background: url("../images/cos-2.jpg");
+    background-size: 50%;
+    height: 4rem;
+    line-height: 4rem;
+    color: whitesmoke;
+    clear: both;
+}
+.footer a {
+    margin-right: 5rem;
+    float: right;
+}
+.footer span {
+    margin-left: 5rem;
+}
+.shattle {
+    background: url("../images/wshatl.jpg");
+    height: 33rem;
+    margin: 6.2rem 0 0 -0.1rem;
+    width: 102%;
+    background-position: center;
+    filter: blur(2px);
+}
+.aside ul {
+    margin-top: 2.3rem;
+}
+.aside ul li {
+    width: 100%;
+}
+.aside ul li:hover {
+    background-color: dimgray;
+}
+.aside ul li:hover a {
+    color: red;
+}
+.img {
+    height: 15rem;
+    width: 30rem;
+}
+.no-margin {
+margin: 0;
+padding: 0;}
+
+
+@keyframes name-anim {
+    0% { margin-top: 3rem;  margin-right: 3rem;  color: whitesmoke;  }
+    22% { margin-top: 3rem;  margin-right: 3rem;  color: whitesmoke;  }
+    23% {  margin-top: 2rem;  margin-right: 3rem;  color: whitesmoke;  }
+    25% {  margin-top: 4rem;  margin-right: 4rem;  color: antiquewhite;  }
+    27% {  margin-top: 2rem;  margin-right: 1rem;  color: snow;  }
+    29% {  margin-top: 4rem;  margin-right: 2rem;  color: black;  }
+    31% {  margin-top: 3rem;  margin-right: 4rem;  color: whitesmoke;  }
+    33% {  margin-top: 2rem;  margin-right: 1rem;  color: silver;  }
+    35% {  margin-top: 4rem;  margin-right: 4rem;  color: seashell;  }
+    38% {  margin-top: 3rem;  margin-right: 3rem;  color: whitesmoke;  }
+    100% {  margin-top: 3rem;  margin-right: 3rem;  color: whitesmoke;  }
 }

@@ -1,0 +1,22 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    position: relative;
+    margin: 50px auto;
+    background-color: silver;
+    width: 300px;
+    min-height: 300px;
+}
+.block-style {
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    margin: 1px;
+}
+#menu, #menu2 {
+    list-style-type: none;
+}
