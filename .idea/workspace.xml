@@ -2,6 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7985608-437d-448e-8977-b40cfdb242e7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task1/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/.idea/Task1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D2/Task2/style/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/.idea/Task1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/.idea/event.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/event/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Новая папка/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Новая папка/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Новая папка/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/button.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week3/W3D2/Task1/index.html" afterPath="$PROJECT_DIR$/GoIT/Week3/W3D2/Task1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/index.html" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/js.js" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D3/Task1/js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task1/js.js" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task1/js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/index.html" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/js.js" afterPath="$PROJECT_DIR$/GoIT/Week4/W4D4/Task2/js.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="251" column="92" lean-forward="false" selection-start-line="251" selection-start-column="92" selection-end-line="251" selection-end-column="92" />
+            <state relative-caret-position="561">
+              <caret line="280" column="64" lean-forward="false" selection-start-line="280" selection-start-column="64" selection-end-line="280" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -29,7 +57,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
+            <state relative-caret-position="47">
               <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding />
             </state>
@@ -90,8 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +134,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,12 +179,13 @@
       <workItem from="1506324525567" duration="2090000" />
       <workItem from="1507187366749" duration="862000" />
       <workItem from="1507211737364" duration="856000" />
-      <workItem from="1507331098920" duration="87000" />
+      <workItem from="1507331098920" duration="209000" />
+      <workItem from="1507465760121" duration="2665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47283000" />
+    <option name="totallyTimeSpent" value="50070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -165,12 +194,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -191,6 +220,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3765">
+          <caret line="251" column="92" lean-forward="false" selection-start-line="251" selection-start-column="92" selection-end-line="251" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/Week4/Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -337,14 +382,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../materialize/index.html" />
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/Week4/Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-106">
@@ -353,10 +390,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="251" column="92" lean-forward="false" selection-start-line="251" selection-start-column="92" selection-end-line="251" selection-end-column="92" />
+        <state relative-caret-position="561">
+          <caret line="280" column="64" lean-forward="false" selection-start-line="280" selection-start-column="64" selection-end-line="280" selection-end-column="64" />
           <folding />
         </state>
       </provider>
