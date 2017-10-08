@@ -2,7 +2,7 @@ html, body, div {
     padding: 0;
     margin: 0 auto;
 }
-.main-wrapper{
+#main-wrapper{
     background: url("images/jackpot5.jpg") 0 0 no-repeat;
     -webkit-background-size: 90%;
     background-size: 90%;
@@ -228,10 +228,13 @@ transform: scale(0.94, 0.94);
 }
 
 .red {
-    vertical-align: middle;
+    position: absolute;
+    top: 209px;
+    left: 24%;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     font-family: crystal, serif;
+    color: red;
 }
 #hor3-1 {
     position: absolute;

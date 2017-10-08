@@ -2,6 +2,8 @@
 var col1=document.getElementById('col-1'),
 col2=document.getElementById('col-2'),
 col3=document.getElementById('col-3'),
+wrap=document.getElementById('main-wrapper'),
+line = document.getElementsByClassName('line'),
 
 bonusForLine = 1,
 wallet = 2000,
@@ -59,7 +61,6 @@ button2[1].onclick = function () {
 		checkLine = true;
 		checkpoint = true;
 		bonusForLine = 1;
-		var line = document.getElementsByClassName('line');
 		for (var i = 0; i < 2; i++) {
 			line[i].style.display = 'none';
 		}
@@ -170,8 +171,13 @@ button.onclick = function () {
 				var red = document.createElement('div');
 				red.className = 'red';
 				red.innerHTML = "GAME OVER!";
-				red.style.color = 'red';
-				document.body.appendChild(red);
+				wrap.appendChild(red);
+				col1.style.display = 'none';
+				col2.style.display = 'none';
+				col3.style.display = 'none';
+				for (var i = 0; i < 2; i++) {
+					line[i].style.display = 'none';
+				}
 				gameOver = true;
 			}
 		}, delay_for_count);
