@@ -14,7 +14,9 @@ start.addEventListener('click', function () {
 		
 		var box = document.getElementById('block');
 		var inp = document.getElementById('inp');
-		inp.value = lim-2 + ' lap' + ' : ' +lim + 'balls';
+		setTimeout(function () {
+			inp.value = lim - 2 + ' level' + ' : ' + lim + 'balls';
+		}, 1000);
 		var array = [];
 		
 		var check = false;
@@ -72,12 +74,12 @@ start.addEventListener('click', function () {
 					lim++;
 					flag = 0;
 					checkpoint = true;
-					inp.value = 'Yeeeeaaaar!';
+					inp.value = 'Yeeeeaaaah!';
 					inp.classList.add('win-style');
 					setTimeout( function () {
 						inp.value = null;
 						inp.classList.remove('win-style');
-					}, 2000);
+					}, 1000);
 				}
 			}
 		}

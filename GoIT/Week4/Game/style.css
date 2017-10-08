@@ -20,6 +20,30 @@ html, body, div {
     left: 252px;
     z-index: 2;
 }
+#arrow-line {
+    background: url("images/arrow-board.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 32px;
+    width: 31px;
+    position: absolute;
+    top: 227px;
+    left: 175px;
+    z-index: 1;
+    display: none;
+}
+#arrow-line2 {
+    background: url("images/arrow-board2.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 32px;
+    width: 31px;
+    position: absolute;
+    top: 227px;
+    left: 433px;
+    z-index: 1;
+    display: none;
+}
 #arrow2 {
     background: url("images/arrow2.png");
     height: 22px;
@@ -97,7 +121,7 @@ html, body, div {
     width: 70px;
     height: 70px;
     background-size:100% 100%;
-
+    transition: 3s;
 }
 #start{
     background: url("images/btn.png") 0 0 no-repeat;
@@ -128,7 +152,6 @@ html, body, div {
     -ms-transform: scale(0.9, 0.9);
     -o-transform: scale(0.9, 0.9);
     transform: scale(0.9, 0.9);
-
 }
 
 .btn2{
@@ -181,17 +204,34 @@ html, body, div {
     width: 74px;
     height: 47px;
 }
-
-@font-face {
-    font-family: 'orbitron';
-    src: url('fonts/Orbitron-Medium.ttf');
-}
-.red {
+.btn7 {
+    background: url("images/black-button.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
     position: absolute;
-    top: 200px;
-    left: 357px;
+    top: 199px;
+    left: 535px;
+    -webkit-appearance: none;
+    width: 35px;
+    height: 31px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+}
+.black-btn:active {
+-webkit-transform: scale(0.94, 0.94);
+-moz-transform: scale(0.94, 0.94);
+-ms-transform: scale(0.94, 0.94);
+-o-transform: scale(0.94, 0.94);
+transform: scale(0.94, 0.94);
+}
+
+.red {
+    vertical-align: middle;
+    text-align: center;
     font-size: 60px;
-    font-family: crystal;
+    font-family: crystal, serif;
 }
 #hor3-1 {
     position: absolute;
@@ -305,6 +345,7 @@ html, body, div {
 
 
 }
+/*дополнительные диагонали*/
 /*#diag1_1 {*/
     /*position: absolute;*/
     /*top: 130px;*/
@@ -343,4 +384,9 @@ html, body, div {
 }
 .stick-block {
     display: block;
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url('fonts/Orbitron-Medium.ttf');
 }
