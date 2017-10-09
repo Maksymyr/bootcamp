@@ -148,6 +148,7 @@ button.onclick = function () {
 		prize = 0;
 		wallet -= rate;
 		inp.value = wallet;
+		inp2.value = 0;
 		
 		var index1 = random_index();
 		var index2 = random_index();

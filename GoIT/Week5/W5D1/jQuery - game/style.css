@@ -1,0 +1,22 @@
+#game{ 
+width: 500px;
+height: 500px;
+margin:0 auto;
+border:1px solid
+}
+.item{ 
+width: 50px;
+height: 50px;
+border:1px solid black;
+box-sizing:border-box;
+float:left
+}
+.hero{ 
+background:red
+}
+
+.food{ 
+background-image:url(burger.png);
+background-size:100% 100%;
+
+}

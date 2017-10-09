@@ -1,0 +1,40 @@
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+}
+#father {
+    width: 2600px;
+    height: 500px;
+    position: absolute;
+    /*transition: 2s;*/
+}
+img {
+    float: left;
+    height: 400px;
+    width: 800px;
+    background-size: cover;
+}
+#container {
+    height: 400px;
+    width: 800px;
+    overflow: hidden;
+    border: 1px solid red;
+    margin: 50px auto;
+    position: relative;
+}
+button {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    position: absolute;
+    font-size: 25px;
+    z-index: 2;
+}
+
+#left {
+    border-radius: 0 25px 25px 0;
+}
+#right {
+    border-radius:  25px 0 0 25px ;
+    right: 0;
+}

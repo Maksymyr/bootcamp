@@ -1,0 +1,137 @@
+html, body, div, input, button, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 800px;
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+#tasking {
+    width: 1000px;
+    height: 98px;
+    border: 1px solid black;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+
+}
+.tasks {
+    width: 1000px;
+    min-height: 58px;
+    height: auto;
+    border: 1px solid black;
+    /*padding: 13px;*/
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin-left:-1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+#textTask {
+    width: 820px;
+    height: 38px;
+    /*float: left;*/
+    outline: none;
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#textBB {
+    margin-left: 20px;
+    margin-top: -5px;
+    float: left;
+    width: 50px;
+}
+#addTask {
+    width: 80px;
+    height: 60px;
+    /*float: right;*/
+    margin: 18px 0 18px 33px;
+    outline: none;
+    font-size: 25px;
+}
+.buttons {
+    margin-left: 20px;
+    margin-top: -3px;
+    float: left;
+    width: 50px;
+
+}
+#taskLeft {
+    width: 850px;
+    height: 96px;
+    /*background-color: black;*/
+    float: left;
+    padding: 18px 0 18px 5px;
+    box-sizing: border-box;
+}
+.btn1, .btn2, .btn3 {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 13px 15px 13px 0;
+    outline: none;
+    border: none;
+
+}
+.btn1 {
+    background: url("../images/list-delete_32.png");
+    background-size: cover;
+}
+.btn2 {
+    background: url("../images/list-edit_32.png");
+    background-size: cover;
+}
+.btn3 {
+    background: url("../images/list-done_32.png");
+    background-size: cover;
+}
+.taskLi {
+    float: left;
+    /*background-color: grey;*/
+    min-height: 56px;
+    height: auto;
+    width: 850px;
+    list-style-position: inside;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 18px;
+    overflow: hidden;
+    text-align: justify;
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+}
+.taskLiEdit {
+    height: 70px;
+    width: 800px;
+}
+#fastTask {
+    margin-top: 5px;
+}
+.btnforeditno {
+    background-image: url("../images/cancel.png");
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.btnforeditok {
+    background-image: url("../images/accept.png");
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
+    float: right;
+    margin-right: 40px;
+    outline: none;
+}
