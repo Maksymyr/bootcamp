@@ -19,7 +19,7 @@ var h = 140,
 for (var i=0; i<6; i++) {
 	for (var j=0; j<4; j++) {
 		var block = document.createElement('div');
-		block.classList.add('cards', 'card2');
+		block.classList.add('cards');
 		block.style.top = j * h + j * margin + 'px';
 		block.style.left = i * w + i * margin + 'px';
 		wrap.appendChild(block);
@@ -47,7 +47,12 @@ button.onclick = function () {
 	for (var i = 0; i < n.length; i++) {
 		n[i].style.opacity = '1';
 	}
-}
+	setTimeout(function () {
+		for (var i = 0; i < n.length; i++) {
+			n[i].classList.add('card2');
+		}
+	}, 2000)
+};
 
 /* Розбираємо блоки та клікаємо */ 
 for(var i = 0; i < n.length; i++) {

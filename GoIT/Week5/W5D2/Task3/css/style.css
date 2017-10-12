@@ -1,0 +1,11 @@
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+}
+.classTest {
+    color: red;
+}
+
+.www {
+    text-decoration: underline;
+}

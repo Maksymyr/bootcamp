@@ -1,0 +1,30 @@
+body, html, div {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 50px auto;
+    border: 1px solid black;
+    width: 452px;
+    height: 452px;
+    box-sizing: border-box;
+}
+.box {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    float: left;
+    box-sizing: border-box;
+}
+.tic {
+    background-color: gray;
+}
+.tac {
+    background-color: wheat;
+}
+#start {
+    width: 50px;
+    height: 25px;
+
+}
