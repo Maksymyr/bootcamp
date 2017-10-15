@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="/weight" method ='post'>
+	<!--<input id="inp1" type="text" name="">-->
+	<input id="inp2" type="text" name="height">
+	<p><input type="radio" name="sex" value="men">Men</p>
+	<p><input type="radio" name="sex" value="women">Women</p>
+	<input id="radiobtn" type="submit" value="Ideal weight">
+</form>
+
+
+<!--Задание 3. Создайте форму с radiobutton для выбора пола (мужчина или женщина).
+Добавьте поле для ввода роста (в сантиметрах). По нажатию кнопки “Идеальный вес”,
+пошлите запрос на '/weight'. На сервер передается параметр пол – ключ параметра sex,
+значения 'man' или 'woman' и рост ( ключ height). Передача осуществляется методом AJAX,
+с помощью POST. Если все выполнено правильно, то будет возвращена строка с расчетом
+идеального веса под заданный пол. В противном случае – ошибка.-->
+
+<script>
+	$("#btn").on("click", function () {
+		$.post('/weight',{height:$('#inp2').val(), sex:$('#radiobtn').val()}, function(data){
+			console.log(data);
+		})
+	})
+</script>
+</body>
+</html>

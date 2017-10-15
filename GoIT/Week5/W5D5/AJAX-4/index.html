@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="/mail" method ='post'>
+	<input id="inp1" type="text" name="fio">
+	<input id="inp2" type="text" name="email">
+	<input id="inp3" type="text" name="phone">
+
+	<button id="btn">Send</button>
+</form>
+
+
+<!--Задание 5. Создайте форму с полями:
+fio – поле ввода для имени и фамилии;
+email – поле ввода для email адреса
+phone – поле ввода для телефона
+
+По нажатию кнопки передайте данные из полей ввода на сервер ('/mail')
+посредством POST (AJAX).
+
+Если все верно, то придет письмо на указанный адрес-->
+
+<script>
+	$("#btn").on("click", function () {
+		$.post('/mail',{fio:$('#inp1').val(), email:$('#inp2').val(), phone:$('#inp3').val()}, function(data){
+			console.log(data);
+		})
+	})
+</script>
+</body>
+</html>

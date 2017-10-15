@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="/year" method ='post'>
+	<input id="inp1" type="text" name="num1">
+	<!--<input id="inp2" type="text" name="num2">-->
+</form>
+<button id="btn">ok</button>
+
+<!--Задание 2. Передайте на сервер свой год рождения в формате XXXX.
+Передачу осуществляйте методом POST, имя ключа num1, адрес - /year.
+Если все выполнено верно, то сервер вернет строку в которой будет количество
+прожитых лет, если нет – ошибку. Способ передачи – AJAX.-->
+
+<script>
+	$("#btn").on("click", function () {
+		$.post('/year',{num1:$('#inp1').val()}, function(data){
+			console.log(data);
+		})
+	})
+</script>
+</body>
+</html>

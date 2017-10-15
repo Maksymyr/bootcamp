@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="/sum" method ='post'>
+	<input id="inp1" type="text" name="num1">
+	<input id="inp2" type="text" name="num2">
+</form>
+<button id="btn">ok</button>
+
+<!--Задание 1. Передайте на сервер два числа методом POST.
+Ключи чисел – num1 и num2. Адрес - /sum. Если все выполнено верно,
+то будет возвращена строка с суммой чисел, если нет – ошибка.
+Способ передачи – AJAX.-->
+
+<script>
+	$("#btn").on("click", function () {
+		$.post('/sum',{num1:$('#inp1').val(), num2:$('#inp2').val()}, function(data){
+			console.log(data);
+		})
+	})
+</script>
+</body>
+</html>

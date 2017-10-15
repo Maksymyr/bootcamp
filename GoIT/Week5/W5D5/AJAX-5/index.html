@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<form action="/weight" method ='post'>
+	<!--<input id="inp1" type="text" name="">-->
+	<input id="inp2" type="range" min="120" max="250" name="height" step="1">
+	<p><input type="radio" name="sex" value="men">Men</p>
+	<p><input type="radio" name="sex" value="women">Women</p>
+	<input id="radiobtn" type="submit" value="Ideal weight">
+</form>
+
+
+<!--Задание 4. Измените предыдущее значение, чтобы рост задавался с помощью ползунка range.-->
+
+<script>
+	$("#btn").on("click", function () {
+		$.post('/weight',{height:$('#inp2').val(), sex:$('#radiobtn').val()}, function(data){
+			console.log(data);
+		})
+	})
+</script>
+</body>
+</html>
