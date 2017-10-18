@@ -319,7 +319,7 @@ function OnClickLead(e) {
 		if (e.leader === unitCount[key].leader) {
 			var divUnit = document.createElement('div');
 			divUnit.classList.add("divRace");
-			divUnit.innerHTML = "&nbsp;" + unitCount[key].getUnit();
+			divUnit.innerHTML = "&nbsp;" + unitCount[key].unit;
 			divInfo.appendChild(divUnit);
 		}
 	}
