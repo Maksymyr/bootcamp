@@ -1,0 +1,18 @@
+#wrap{
+
+    border:1px solid;
+    margin:0 auto;
+    position:relative;
+}
+.blockNet {
+    width: 20px;
+    height: 20px;
+    box-sizing:border-box;
+    float:left;
+    /*border: 1px solid;*/
+}
+#snake {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
