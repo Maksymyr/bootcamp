@@ -1,0 +1,36 @@
+#game{ 
+
+	margin:0 auto;
+	border:1px solid
+}
+.bomb{
+	background: url(https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/apps/clanbomber.png);	
+	-webkit-background-size: 90%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.item{ 
+	width: 50px;
+	height: 50px;
+	border:1px solid black;
+	box-sizing:border-box;
+	float:left
+}
+.hero{ 
+	background-color: red;
+}
+.hero2{
+	background-color: #6A91F5;
+}
+
+.explosion{
+	background-color: orange;
+}
+
+.brick-wall{
+	background-color: #975A29
+}
+.steel-wall{
+	background-color: #5C5851
+}
