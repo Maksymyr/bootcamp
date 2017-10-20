@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7985608-437d-448e-8977-b40cfdb242e7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/.idea/lectCanv.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/lect.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/lect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Canvas1/lect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Graffic/canv.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Graffic/canv.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Graffic/canv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/lectCanv/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="423" column="70" lean-forward="false" selection-start-line="423" selection-start-column="70" selection-end-line="423" selection-end-column="70" />
+            <state relative-caret-position="199">
+              <caret line="426" column="18" lean-forward="true" selection-start-line="426" selection-start-column="18" selection-end-line="426" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -201,12 +212,12 @@
       <workItem from="1508357577088" duration="71000" />
       <workItem from="1508440676259" duration="45000" />
       <workItem from="1508440775708" duration="100000" />
-      <workItem from="1508504732397" duration="189000" />
+      <workItem from="1508504732397" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52005000" />
+    <option name="totallyTimeSpent" value="52231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
@@ -606,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="423" column="70" lean-forward="false" selection-start-line="423" selection-start-column="70" selection-end-line="423" selection-end-column="70" />
+        <state relative-caret-position="199">
+          <caret line="426" column="18" lean-forward="true" selection-start-line="426" selection-start-column="18" selection-end-line="426" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
