@@ -85,30 +85,34 @@ window.requestAnimationFrame(drawIt);
 
 var lastX = 0;
 var lastY = 0;
+canvas.onmouseover = function (e) {
+	lastX = e.pageX;
+	lastY = e.pageY;
+};
 document.onmousemove = function (e) {
 	console.log(e.pageX + " : " + e.pageY);
 	if (e.pageX <= lastX && e.pageY <= lastY) {
 		for (var i = 0; i < snowArray.length; i++) {
-			snowArray[i].x = snowArray[i].x+(e.pageX - lastX);
-			snowArray[i].y = snowArray[i].y+(e.pageY - lastY);
+			snowArray[i].x = snowArray[i].x-(e.pageX - lastX);
+			snowArray[i].y = snowArray[i].y-(e.pageY - lastY);
 		}
 	}
 	else if (e.pageX >= lastX && e.pageY <= lastY) {
 		for (var i = 0; i < snowArray.length; i++) {
-			snowArray[i].x = snowArray[i].x-(lastX - e.pageX);
-			snowArray[i].y = snowArray[i].y+(e.pageY - lastY);
+			snowArray[i].x = snowArray[i].x+(lastX - e.pageX);
+			snowArray[i].y = snowArray[i].y-(e.pageY - lastY);
 		}
 	}
 	else if (e.pageX >= lastX && e.pageY >= lastY) {
 		for (var i = 0; i < snowArray.length; i++) {
-			snowArray[i].x = snowArray[i].x-(lastX - e.pageX);
-			snowArray[i].y = snowArray[i].y-(lastY - e.pageY);
+			snowArray[i].x = snowArray[i].x+(lastX - e.pageX);
+			snowArray[i].y = snowArray[i].y+(lastY - e.pageY);
 		}
 	}
 	else if (e.pageX <= lastX && e.pageY >= lastY) {
 		for (var i = 0; i < snowArray.length; i++) {
-			snowArray[i].x = snowArray[i].x+(e.pageX - lastX);
-			snowArray[i].y = snowArray[i].y-(lastY - e.pageY);
+			snowArray[i].x = snowArray[i].x-(e.pageX - lastX);
+			snowArray[i].y = snowArray[i].y+(lastY - e.pageY);
 		}
 	}
 	lastX = e.pageX;

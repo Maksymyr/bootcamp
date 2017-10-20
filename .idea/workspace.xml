@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7985608-437d-448e-8977-b40cfdb242e7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Snow/.idea/workspace.xml" afterPath="$PROJECT_DIR$/GoIT/Week6/W6D4/Snow/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Snow/js.js" afterPath="$PROJECT_DIR$/GoIT/Week6/W6D4/Snow/js.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Stars/.idea/workspace.xml" afterPath="$PROJECT_DIR$/GoIT/Week6/W6D4/Stars/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/Week6/W6D4/Stars/js.js" afterPath="$PROJECT_DIR$/GoIT/Week6/W6D4/Stars/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -221,12 +222,12 @@
       <workItem from="1508440775708" duration="100000" />
       <workItem from="1508504732397" duration="1175000" />
       <workItem from="1508525603716" duration="198000" />
-      <workItem from="1508533493385" duration="1230000" />
+      <workItem from="1508533493385" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54419000" />
+    <option name="totallyTimeSpent" value="54856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />

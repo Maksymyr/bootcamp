@@ -90,7 +90,7 @@ canvas.onmouseover = function (e) {
 	lastX = e.pageX;
 	lastY = e.pageY;
 };
-document.onmousemove = Dragging;
+canvas.onmousemove = Dragging;
 
 
 function Dragging (e) {
@@ -98,8 +98,8 @@ function Dragging (e) {
 	// if(checkbox) {
 	// 	checkbox = false;
 	// document.onmousemove = null;
-		var changeX = (e.pageX - lastX)/60;
-		var changeY = (e.pageY - lastY)/60;
+		var changeX = -(e.pageX - lastX)/60;
+		var changeY = -(e.pageY - lastY)/60;
 		console.log(e.pageX + " : " + e.pageY);
 	var interval = setInterval(function () {
 		
