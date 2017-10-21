@@ -43,7 +43,7 @@ class Star {
 		console.log(this);
 		// ctx.globalAlpha=this.opacity[Math.floor(Math.random()*(this.opacity.length+1))];
 		
-		ctx.fillStyle = "white";
+	
 		
 		ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
 		ctx.fill();
@@ -81,7 +81,7 @@ for (var m = 0; m < 100; m++) {
 }
 
 window.requestAnimationFrame(drawIt);
-
+ctx.fillStyle = "white";
 // var checkbox = true;
 
 var lastX = 0;
@@ -92,42 +92,22 @@ canvas.onmouseover = function (e) {
 };
 canvas.onmousemove = Dragging;
 
-
 function Dragging (e) {
 	clearInterval(interval);
+	// canvas.onmousemove = null;
 	// if(checkbox) {
 	// 	checkbox = false;
-	// document.onmousemove = null;
 		var changeX = -(e.pageX - lastX)/60;
 		var changeY = -(e.pageY - lastY)/60;
-		console.log(e.pageX + " : " + e.pageY);
+		// console.log(e.pageX + " : " + e.pageY);
+	
 	var interval = setInterval(function () {
 		
-		if (e.pageX <= lastX && e.pageY <= lastY) {
 			for (var i = 0; i < starArray.length; i++) {
 				// console.log(i);
 				starArray[i].x = starArray[i].x + changeX;
 				starArray[i].y = starArray[i].y + changeY;
 			}
-		}
-		else if (e.pageX >= lastX && e.pageY <= lastY) {
-			for (var i = 0; i < starArray.length; i++) {
-				starArray[i].x = starArray[i].x + changeX;
-				starArray[i].y = starArray[i].y + changeY;
-			}
-		}
-		else if (e.pageX >= lastX && e.pageY >= lastY) {
-			for (var i = 0; i < starArray.length; i++) {
-				starArray[i].x = starArray[i].x + changeX;
-				starArray[i].y = starArray[i].y + changeY;
-			}
-		}
-		else if (e.pageX <= lastX && e.pageY >= lastY) {
-			for (var i = 0; i < starArray.length; i++) {
-				starArray[i].x = starArray[i].x + changeX;
-				starArray[i].y = starArray[i].y + changeY;
-			}
-		}
 		},10);
 
 	// }
