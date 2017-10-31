@@ -115,7 +115,7 @@ function Dragging (e) {
 		clearInterval(interval);
 		// checkbox=true;
 		// document.onmousemove = Dragging;
-	}, 1200);
+	}, 1000);
 	lastX = e.pageX;
 	lastY = e.pageY;
 };

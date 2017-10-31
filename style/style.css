@@ -43,6 +43,10 @@ main {
       height: 60rem;
     padding: 3rem 3rem;
 }
+#canvas {
+    width: 100%;
+    height: 100%;
+}
 
 
 
